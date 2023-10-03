@@ -11,8 +11,8 @@ ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/18.0.0-20230
 ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
-KERNEL_GIT="https://github.com/Kentanglu/Sea_Kernel-Selene.git"
-KERNEL_BRANCHE="sea-release"
+KERNEL_GIT="https://github.com/YudhoPatrianto/kernel_xiaomi_selene.git"
+KERNEL_BRANCHE="ksu"
 KERNEL_DIR="$WORKDIR/SeaKernel"
 SEA_KERNEL_VERSION="Naya"
 SEA_KERNEL_CODENAME="7.5/Naya🍃✨"
@@ -35,8 +35,8 @@ IMAGE="$KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb"
 DTB="$KERNEL_DIR/out/arch/arm64/boot/dts/mediatek/mt6768.dtb"
 DTBO="$KERNEL_DIR/out/arch/arm64/boot/dtbo.img"
 
-export KBUILD_BUILD_USER=MoChenYa
-export KBUILD_BUILD_HOST=GitHubCI
+export KBUILD_BUILD_USER=YudhoPRJKT
+export KBUILD_BUILD_HOST=RvLProMaster
 
 msg() {
 	echo
