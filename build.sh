@@ -12,7 +12,7 @@ ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
 KERNEL_GIT="https://github.com/YudhoPatrianto/kernel_xiaomi_selene.git"
-KERNEL_BRANCHE="ksu"
+KERNEL_BRANCHE="ksu-test"
 KERNEL_DIR="$WORKDIR/SeaKernel"
 SEA_KERNEL_VERSION="Naya"
 SEA_KERNEL_CODENAME="7.5/Naya🍃✨"
